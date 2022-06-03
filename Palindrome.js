@@ -1,4 +1,4 @@
-function checkPalindrome(word) {
+function isPalindrome(word) {
 
     let arrayValues = word.split('');
 
@@ -14,5 +14,5 @@ function checkPalindrome(word) {
     }
 }
 
-console.log(checkPalindrome('racecar'));
-console.log(checkPalindrome('cheese'));
+console.log(isPalindrome('racecar'));
+console.log(isPalindrome('cheese'));
